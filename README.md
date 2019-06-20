@@ -16,3 +16,12 @@ MDN: https://developer.mozilla.org/ja/docs/Web/API/Node/insertBefore
 click()だとイベント発火しない。onを使用することでDOMで追加した要素にクリックイベントを使用できる　  
 また、onは複数のイベントを同時に宣言できる。詳しくは参考サイト  
 参考サイト https://qiita.com/shizuma/items/d561f37f864c3ebb5096  
+  
+  
+  
+# ネガティブマージンとclickイベント
+ネガティブマージンを使用すると、コンテンツが上乗せになり、
+下敷きになった要素のクリックイベントが反応しない可能性がある。
+z-indexとposition:relativeで解決できる.
+参考サイト https://webkcampus.com/201706/1369/
+
