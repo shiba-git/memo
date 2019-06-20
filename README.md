@@ -25,7 +25,7 @@ click()だとイベント発火しない。onを使用することでDOMで追�
 z-indexとposition:relativeで解決できる.  
 参考サイト https://webkcampus.com/201706/1369/  
 
-#HTMLCollectionとNodeListの違い。  
+# HTMLCollectionとNodeListの違い。  
 NodeListは静的なものなので、DOMでの変更をすることができない。  
 HTMLCollectionは、動的でDOMの変更ができる.  
 
