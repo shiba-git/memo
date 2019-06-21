@@ -24,8 +24,14 @@ click()だとイベント発火しない。onを使用することでDOMで追�
 下敷きになった要素のクリックイベントが反応しない可能性がある。  
 z-indexとposition:relativeで解決できる.  
 参考サイト https://webkcampus.com/201706/1369/  
-
+  
+  
+  
 # HTMLCollectionとNodeListの違い。  
 NodeListは静的なものなので、DOMでの変更をすることができない。  
 HTMLCollectionは、動的でDOMの変更ができる.  
-
+  
+  
+  
+# Uncaught TypeError: Failed to execute 'appendChild' on 'Node': parameter 1 is not of type 'Node'.
+appendChildをappendに変更したら解決した。
