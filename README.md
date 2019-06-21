@@ -41,3 +41,12 @@ HTMLCollectionは、動的でDOMの変更ができる.
 # ループ内で最後の値変数を設定するときのlength値
 max = bannerBox.length; bannerBox[max - 1]   
 length値は1からカウントするため、マイナス1を加えないとNodeListに合わない。  
+  
+  
+# slidetoggle()の中身変更とtableについて
+slideToggleは、表示の時、display値がblockが設定されている。  
+参考サイトの方法で変更可能。  
+参考サイト https://codeday.me/jp/qa/20190115/124023.html  
+slideToggleで、テーブル要素をアコーディオンする場合、レイアウト崩れがおこる。  
+hideとshowでスムーズをあきらめるか、cssのみ(hight指定必要)で行う。  
+  
