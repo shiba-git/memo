@@ -44,7 +44,7 @@ length値は1からカウントするため、マイナス1を加えないとNod
   
   
 # slidetoggle()の中身変更とtableについて
-slideToggleは、表示の時、display値がblockが設定されている。  
+slideToggleは、表示の時、display値にblockが設定されている。ほかの値に変更したい場合、 
 参考サイトの方法で変更可能。  
 参考サイト https://codeday.me/jp/qa/20190115/124023.html  
 slideToggleで、テーブル要素をアコーディオンする場合、レイアウト崩れがおこる。  
