@@ -50,3 +50,10 @@ slideToggleは、表示の時、display値にblockが設定されている。ほ
 slideToggleで、テーブル要素をアコーディオンする場合、レイアウト崩れがおこる。  
 hideとshowでスムーズをあきらめるか、cssのみ(hight指定必要)で行う。  
   
+  
+# thisを変数に格納する理由
+http://kumao-no-mori.hatenablog.com/entry/2017/06/06/190000  
+  
+  
+
+
