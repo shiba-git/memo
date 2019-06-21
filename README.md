@@ -34,4 +34,5 @@ HTMLCollectionは、動的でDOMの変更ができる.
   
   
 # Uncaught TypeError: Failed to execute 'appendChild' on 'Node': parameter 1 is not of type 'Node'.
-appendChildをappendに変更したら解決した。
+追加する要素をノードしないければ、ならない。なので要素をquerySelectorAllで取得した。
+すでにある要素に、条件でDOM変更を行う場合の要素取得方法。
