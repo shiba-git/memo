@@ -55,5 +55,23 @@ hideとshowでスムーズをあきらめるか、cssのみ(hight指定必要)�
 http://kumao-no-mori.hatenablog.com/entry/2017/06/06/190000  
   
   
+# 再帰関数(引数に与えたかずだけ表示する)  
+```
+var langs = ['Java', 'Ruby', 'Python'];
+
+function cycle(times, array) {
+  if(times <= 0) {
+    return [];
+  } else {
+    console.log(array);
+    return cycle(times - 1, array);
+  }
+}
+cycle(3, langs); // [ 'Java', 'Ruby', 'Python', 'Java', 'Ruby', 'Python', 'Java', 'Ruby', 'Python' ]
+```
+
+
+
+  
 
 
