@@ -72,9 +72,9 @@ cycle(3, langs); // [ 'Java', 'Ruby', 'Python', 'Java', 'Ruby', 'Python', 'Java'
 ```
 
 # IEでのdisplay:flex
-一番上の親要素にwidth:978pxが付いているが、
-IEだとDOMで追加した要素はうまく掴めないのか?謎
-なので、DOMで追加した要素のすぐ上の要素にwidthを指定する。
+一番上の親要素にwidth:978pxが付いているが、  
+IEだとDOMで追加した要素はうまく掴めないのか?謎  
+なので、DOMで追加した要素のすぐ上の要素にwidthを指定する。  
 
   
 
