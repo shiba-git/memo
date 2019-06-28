@@ -49,6 +49,7 @@ slideToggleは、表示の時、display値にblockが設定されている。ほ
 参考サイト https://codeday.me/jp/qa/20190115/124023.html  
 slideToggleで、テーブル要素をアコーディオンする場合、レイアウト崩れがおこる。  
 hideとshowでスムーズをあきらめるか、cssのみ(hight指定必要)で行う。  
+ ※06/28 display:flexを使用
   
   
 # thisを変数に格納する理由
@@ -70,7 +71,10 @@ function cycle(times, array) {
 cycle(3, langs); // [ 'Java', 'Ruby', 'Python', 'Java', 'Ruby', 'Python', 'Java', 'Ruby', 'Python' ]
 ```
 
-
+# IEでのdisplay:flex
+一番上の親要素にwidth:978pxが付いているが、
+IEだとDOMで追加した要素はうまく掴めないのか?謎
+なので、DOMで追加した要素のすぐ上の要素にwidthを指定する。
 
   
 
