@@ -75,6 +75,9 @@ cycle(3, langs); // [ 'Java', 'Ruby', 'Python', 'Java', 'Ruby', 'Python', 'Java'
 一番上の親要素にwidth:978pxが付いているが、  
 IEだとDOMで追加した要素はうまく掴めないのか?謎  
 なので、DOMで追加した要素のすぐ上の要素にwidthを指定する。  
+  
+# smoothScroll.jsはハイフンが付いたID名はうまく認識しない。  
+プラグイン内の正規表現を見た限り、特殊文字の対応がされていない。  
 
   
 
