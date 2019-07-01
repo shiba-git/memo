@@ -81,7 +81,7 @@ IEだとDOMで追加した要素はうまく掴めないのか?謎
   
   
 # getMonthをキープし続ける(13月表示対策)
-このままだと12月の0が表示される。
+このままだと12月の0が表示される。1つずつif文するしかない.  
 ```
 var date =  new Date();
 		date.setMonth(date.getMonth() + 1);
