@@ -78,7 +78,24 @@ IEだとDOMで追加した要素はうまく掴めないのか?謎
   
 # smoothScroll.jsはハイフンが付いたID名はうまく認識しない。  
 プラグイン内の正規表現を見た限り、特殊文字の対応がされていない。  
-
   
-
+  
+# getMonthをキープし続ける(13月表示対策)
+```
+var date =  new Date();
+		date.setMonth(date.getMonth() + 1);
+		var MonBt_1 = date.getMonth();
+		date.setMonth(date.getMonth() + 1);
+		var MonBt_2 = date.getMonth();
+		date.setMonth(date.getMonth() + 1);
+		var MonBt_3 = date.getMonth();
+		date.setMonth(date.getMonth() + 1);
+		var MonBt_4 = date.getMonth();
+		date.setMonth(date.getMonth() + 1);
+		var MonBt_5 = date.getMonth();
+		date.setMonth(date.getMonth() + 1);
+		var MonBt_6 = date.getMonth();
+		date.setMonth(date.getMonth() + 1);
+		var MonBt_7 = date.getMonth();
+```
 
