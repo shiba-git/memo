@@ -99,4 +99,11 @@ var date =  new Date();
 		date.setMonth(date.getMonth() + 1);
 		var MonBt_7 = date.getMonth();
 ```
+  
+  
+# getElementbyId と　$()の違い  
+http://blog.mwsoft.jp/article/36582155.html  
+
+
+  
 
