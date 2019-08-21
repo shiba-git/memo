@@ -103,7 +103,10 @@ var date =  new Date();
   
 # getElementbyId と　$()の違い  
 http://blog.mwsoft.jp/article/36582155.html  
-
+  
+  
+# クリックイベントが発火しないとき  
+https://pisuke-code.com/jquery-solution-for-event-unfired/
 
   
 
