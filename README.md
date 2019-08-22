@@ -110,8 +110,11 @@ https://pisuke-code.com/jquery-solution-for-event-unfired/
   
   
 # 要素を代入するときに便利なinsertAdjacentHTML　　
-https://developer.mozilla.org/ja/docs/Web/API/Element/insertAdjacentHTML 
+https://developer.mozilla.org/ja/docs/Web/API/Element/insertAdjacentHTML   
   
+  
+#クラスがあるか調べる方法(javascript)  
+obj.classList.contains("cs3");  
 
-  
+
 
