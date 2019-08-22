@@ -113,7 +113,7 @@ https://pisuke-code.com/jquery-solution-for-event-unfired/
 https://developer.mozilla.org/ja/docs/Web/API/Element/insertAdjacentHTML   
   
   
-#クラスがあるか調べる方法(javascript)  
+# クラスがあるか調べる方法(javascript)  
 obj.classList.contains("cs3");  
 
 
