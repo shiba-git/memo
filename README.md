@@ -107,6 +107,11 @@ http://blog.mwsoft.jp/article/36582155.html
   
 # クリックイベントが発火しないとき  
 https://pisuke-code.com/jquery-solution-for-event-unfired/
+  
+  
+# 要素を代入するときに便利なinsertAdjacentHTML　　
+https://developer.mozilla.org/ja/docs/Web/API/Element/insertAdjacentHTML 
+  
 
   
 
