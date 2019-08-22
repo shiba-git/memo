@@ -105,7 +105,7 @@ var date =  new Date();
 http://blog.mwsoft.jp/article/36582155.html  
   
   
-# クリックイベントが発火しないとき  
+# クリックイベントが発火しないとき (DOMの後入れ関連)
 https://pisuke-code.com/jquery-solution-for-event-unfired/
   
   
