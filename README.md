@@ -115,6 +115,19 @@ https://developer.mozilla.org/ja/docs/Web/API/Element/insertAdjacentHTML
   
 # クラスがあるか調べる方法(javascript)  
 obj.classList.contains("cs3");  
-
-
+  
+   
+# $.cookieから値を取り出すとき、文字列の可能性あり。  
+```  
+var openBox = Array.prototype.slice.call(  
+    document.getElementsByClassName('openBox')  
+  ).filter(function(v){  
+    return  $.cookie(v.id) == "true";  
+  });  
+```  
+  
+   
+# slideToggleの表示・非表示を判断するとき  
+クリックイベントでslidetoggleが行われる前に入れないと状態を取得できない。  
+https://stackoverflow.com/questions/1345652/slidetoggle-and-visible (ここの回答欄が役に立つ)  
 
