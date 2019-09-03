@@ -130,4 +130,13 @@ var openBox = Array.prototype.slice.call(
 # slideToggleの表示・非表示を判断するとき  
 クリックイベントでslidetoggleが行われる前に入れないと状態を取得できない。  
 https://stackoverflow.com/questions/1345652/slidetoggle-and-visible (ここの回答欄が役に立つ)  
-
+  
+  
+# （form）value値が複数の場合
+hiddenのinputを用意して、jsで連携した値を送信する
+```
+var tourConFlg = $('.domtour_search input[class="TourCFlg"]:checked').map(function(){
+			return $(this).val();
+		}).get().join('-') // 1-2
+$('.domtour_search #domtour_search_tour_ConFlg').val(tourConFlg);
+```
