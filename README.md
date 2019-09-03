@@ -140,3 +140,5 @@ var tourConFlg = $('.domtour_search input[class="TourCFlg"]:checked').map(functi
 		}).get().join('-') // 1-2
 $('.domtour_search #domtour_search_tour_ConFlg').val(tourConFlg);
 ```
+https://www.sejuku.net/blog/83301  
+
