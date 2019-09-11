@@ -141,4 +141,9 @@ var tourConFlg = $('.domtour_search input[class="TourCFlg"]:checked').map(functi
 $('.domtour_search #domtour_search_tour_ConFlg').val(tourConFlg);
 ```
 https://www.sejuku.net/blog/83301  
-
+  
+  
+# javascriptのみで飛び先リンクを変更する方法　　
+https://creatorhyp.com/tips/tips-linkchange/
+  
+  
