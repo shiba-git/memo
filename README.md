@@ -147,3 +147,5 @@ https://www.sejuku.net/blog/83301
 https://creatorhyp.com/tips/tips-linkchange/
   
   
+# 特定の要素以外のクリック
+https://www.plusdesign.co.jp/blog/?p=5468
