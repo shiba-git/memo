@@ -147,5 +147,10 @@ https://www.sejuku.net/blog/83301
 https://creatorhyp.com/tips/tips-linkchange/
   
   
-# 特定の要素以外のクリック
-https://www.plusdesign.co.jp/blog/?p=5468
+# 特定の要素以外のクリック(モーダルウィンドウ以外をクリックした場合ウィンドウを閉じる場合など)
+https://www.plusdesign.co.jp/blog/?p=5468  
+  
+  
+# val()値の値を変更したのに、changeイベントが発生しない場合の対処法
+val()変更後の最後に、change()を追加する　以下のサイトの「changeイベントが発火しない場合」を参照
+https://www.sejuku.net/blog/41231 
