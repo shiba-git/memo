@@ -148,7 +148,7 @@ https://www.sejuku.net/blog/83301
 https://creatorhyp.com/tips/tips-linkchange/
   
   
-# 特定の要素以外のクリック(モーダルウィンドウ以外をクリックした場合ウィンドウを閉じる場合など)
+# jQueryで特定の要素以外をクリックしたらポップアップを閉じる方法。
 https://www.plusdesign.co.jp/blog/?p=5468  
   
   
