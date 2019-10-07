@@ -155,5 +155,5 @@ https://www.plusdesign.co.jp/blog/?p=5468
 val()変更後の最後に、change()を追加する　以下のサイトの「changeイベントが発火しない場合」を参照
 https://www.sejuku.net/blog/41231 
  
-#val()値がからの場合の条件分  
+# val()値がからの場合の条件分  
 val == ""#  nullやundefindedではなくそのまま空指定すればよい  
