@@ -118,6 +118,7 @@ obj.classList.contains("cs3");
   
    
 # $.cookieから値を取り出すとき、文字列の可能性あり。  
+クッキーに保存した真偽値が文字列の可能性が高い。（原因はわからないがおそらく格納時）
 ```  
 var openBox = Array.prototype.slice.call(  
     document.getElementsByClassName('openBox')  
