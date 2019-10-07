@@ -158,3 +158,21 @@ https://www.sejuku.net/blog/41231
  
 # val()値がからの場合の条件分  
 val == ""#  nullやundefindedではなくそのまま空指定すればよい  
+
+# カレンダーの表示位置(datapicker)を決めたい場合
+この方法だとPC、SPで使える。いちいち調整する必要はない。
+下記はカレンダーを表示するためのボタンがinputTagの場合
+```
+$("#startCalenderStation, #endCalenderStation").datepicker({
+beforeShow: function(input, inst){
+	var $calendar = inst.dpDiv;
+	var $input = $(input);
+	var rect = $input.offset().top; //ブラウザ上部からinputまでの距離
+	var height = $input.height();　// inputTag自体の高さ
+	setTimeout(function() {
+		$calendar.css({ top: rect + height + 20 }); //カレンダーのcssに適応
+	}, 1);
+    }
+});
+```
+
