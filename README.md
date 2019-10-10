@@ -175,4 +175,11 @@ beforeShow: function(input, inst){
     }
 });
 ```
+  
+  
+# input type の注意点 
+type = "number"にしている時、submit時にパラメーター用に  
+(文字列)変換した場合空文字になる。検索窓はsubmit時も考慮してtype値を付けなければならない  
+
+
 
