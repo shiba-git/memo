@@ -190,6 +190,15 @@ https://qiita.com/tk3fftk/items/22bf451f3051804b142
 # on(click)の重複登録に注意
 https://qiita.com/nekoneko-wanwan/items/3d3da95f1127f743397d  
 addEventListenerを使用する  
+
+# datepickerの初期設定を条件によって変更したい場合
+```
+if(dataTab == "air"){
+	$('#startCalenderStation').datepicker('option', 'minDate', "+7d");
+}else if(dataTab == "jr"){
+	$('#startCalenderStation').datepicker('option', 'minDate', "+4d");
+}
+```
   
   
 
