@@ -36,8 +36,13 @@ HTMLCollectionは、動的でDOMの変更ができる.
 # Uncaught TypeError: Failed to execute 'appendChild' on 'Node': parameter 1 is not of type 'Node'.
 追加する要素をノードにしなければ、ならない。なので要素をquerySelectorAllで取得した。
 すでにある要素に、条件でDOM変更を行う場合の要素取得方法。　　
+ 
+ 
+# URLに日本語が入ったとき(IEの文字化け対策)  
+日本語のvalue値にencodeURL  
+https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/encodeURI  
   
-  
+   
 # ループ内で最後の値変数を設定するときのlength値
 max = bannerBox.length; bannerBox[max - 1]   
 length値は1からカウントするため、マイナス1を加えないとNodeListに合わない。  
