@@ -179,7 +179,17 @@ beforeShow: function(input, inst){
   
 # input type の注意点 
 type = "number"にしている時、submit時にパラメーター用に  
-(文字列)変換した場合空文字になる。検索窓はsubmit時も考慮してtype値を付けなければならない  
-
-
+(文字列)変換した場合空文字になる。検索窓はsubmit時も考慮してtype値を付けなければならない   
+  
+  
+# form serialize()
+form内にあるすべての要素をパラメータのようにつなげられる。　　
+https://qiita.com/tk3fftk/items/22bf451f3051804b142  
+  
+  
+# on(click)の重複登録に注意
+https://qiita.com/nekoneko-wanwan/items/3d3da95f1127f743397d  
+addEventListenerを使用する  
+  
+  
 
