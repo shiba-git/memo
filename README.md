@@ -216,5 +216,7 @@ slideToggeで確認すると一回開いてすぐに閉じてしまうのがわ�
   
 # スマホサイトで拡大・縮小(ピンチイン・アウト)できない
 https://teratail.com/questions/24059
+```
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2, user-scalable=yes">
+```
 
