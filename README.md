@@ -205,5 +205,13 @@ if(dataTab == "air"){
 }
 ```
   
+# jqueryのslimにはanimation系は入っていない。
+minかcompuleteを使う。  
   
+  
+# a tagにクリックイベントを入れると二回発火する
+Event.defaultPreventedを使用し、デフォルトの発火を消す。  
+slideToggeで確認すると一回開いてすぐに閉じてしまうのがわかる。  
+  
+    
 
