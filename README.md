@@ -162,7 +162,9 @@ val()変更後の最後に、change()を追加する　以下のサイトの「c
 https://www.sejuku.net/blog/41231 
  
 # val()値がからの場合の条件分  
+```
 val == ""#  nullやundefindedではなくそのまま空指定すればよい  
+```
 
 # カレンダーの表示位置(datapicker)を決めたい場合
 この方法だとPC、SPで使える。いちいち調整する必要はない。
@@ -219,4 +221,18 @@ https://teratail.com/questions/24059
 ```
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2, user-scalable=yes">
 ```
-
+# checkboxとlabel  
+checkboxのid値 と labelのfor値を合わせる  
+  
+  
+# checkboxのカスタマイズ  
+元のcheckboxは非表示にする  
+labelにrelative labelのbefore,afterにabsolute  
+beforeにチェックマーク 初期は透明度0、afterにcheckboxの箱を作成
+```
+#checkboxStation:checked + .roundTripCheckBoxlabel:before{
+  opacity: 1;
+  z-index: 100;
+}
+```  
+check時に透明度を1にする
