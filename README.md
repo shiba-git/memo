@@ -236,3 +236,7 @@ beforeにチェックマーク 初期は透明度0、afterにcheckboxの箱を�
 }
 ```  
 check時に透明度を1にする
+
+# 一度fadeOutし、もう一度fadeInする方法  
+https://teratail.com/questions/221550
+
