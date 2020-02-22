@@ -2,6 +2,7 @@
 ApacheとNginxどちらで開発すのか考える。
 Nginxの場合、phpfpmが必要。
 
+https://ja.wikipedia.org/wiki/Common_Gateway_Interface
 https://inuisou.com/2019/12/30/web/949/
 
 vi /etc/php.ini にTimezonなどを設定する。
