@@ -1,0 +1,8 @@
+
+テーマをアップロードする方法と過程に起きたエラー
+
+「辿ったリンクは期限が切れています」
+https://blog.misw.jp/entry/2018/05/17/124357
+
+php.iniで定義されたupload_max_filesizeを超過しています
+https://sabarentalserver.com/wordpress/uploadmaxfilesize/
