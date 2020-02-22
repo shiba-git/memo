@@ -4,6 +4,7 @@ Nginxの場合、phpfpmが必要。
 
 https://ja.wikipedia.org/wiki/Common_Gateway_Interface
 https://inuisou.com/2019/12/30/web/949/
+https://hombre-nuevo.com/php/php0019/
 
 vi /etc/php.ini にTimezonなどを設定する。
 phpinfo()が表示できてからwordpressに挑む。
