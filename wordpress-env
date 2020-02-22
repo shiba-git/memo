@@ -1,4 +1,15 @@
 
+ApacheとNginxどちらで開発すのか考える。
+Nginxの場合、phpfpmが必要。
+
+https://inuisou.com/2019/12/30/web/949/
+
+vi /etc/php.ini にTimezonなどを設定する。
+phpinfo()が表示できてからwordpressに挑む。
+
+wordpress　-> MicroDB
+
+
 テーマをアップロードする方法と過程に起きたエラー
 
 「辿ったリンクは期限が切れています」
