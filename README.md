@@ -10,6 +10,9 @@ MDN: https://developer.mozilla.org/ja/docs/Web/API/Node/insertBefore
 参考サイト https://www.softel.co.jp/blogs/tech/archives/994  
   
   
+# bodyにline-heightはデザイン崩れの原因になる。謎の上余白
+https://qiita.com/an_apco/items/87ff859950bc2752ae8c
+  
   
 # click() と on('click' )の違い　　
 上記のようなinsertBeforeなどで、DOM後で追加した場合、  
