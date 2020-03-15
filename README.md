@@ -254,6 +254,6 @@ https://teratail.com/questions/221550
 # Cokkieのパスを指定しないとあてでエラーになる可能性がある。
 $.cookie.jQueryの話。
 
-#input tag 16px以下はズームされる
+# input tag 16px以下はズームされる
 https://qiita.com/skwbr/items/b285cc312587c73a4812
 
