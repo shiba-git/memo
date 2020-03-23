@@ -1,0 +1,20 @@
+<script>
+	$('.from_popular_list > li > a').on("click", function(e){
+		var day = new Date();
+		day.setDate( day.getDate() + 1 );
+		var hrefValue = $(this).attr('href');
+		var year = day.getFullYear();
+		var month = day.getMonth() + 1;
+		var today = day.getDate();
+		$(this).attr("href", hrefValue + "&_submit=&year="+ year + "&month=" + month + "&day=" + today + "&time=11-00&return_way=0&_submit=&return_year="+ year + "&return_month=" + month + "&return_day=" + today + "&return_time=17-00&return_way=0");
+	});
+	$('.from_carType_list > li > a').on("click", function(e){
+		var day = new Date();
+		day.setDate( day.getDate() + 10 );
+		var hrefValue = $(this).attr('href');
+		var year = day.getFullYear();
+		var month = day.getMonth() + 1;
+		var today = day.getDate();
+		$(this).attr("href", hrefValue + "&_submit=&year="+ year + "&month=" + month + "&day=" + today + "&time=11-00&return_way=0&_submit=&return_year="+ year + "&return_month=" + month + "&return_day=" + today + "&return_time=17-00&return_way=0");
+	});
+	</script>
