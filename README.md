@@ -34,7 +34,42 @@ z-indexとposition:relativeで解決できる.
 NodeListは静的なものなので、DOMでの変更をすることができない。  
 HTMLCollectionは、動的でDOMの変更ができる.  
   
-  
+# 複数のクッキーを共有する
+```
+$(function(){
+
+  var openBoxs = Array.prototype.slice.call(
+    document.getElementsByClassName('openBox')
+  ).filter(function(openBox){
+    return  $.cookie(openBox.id) == "true";
+  });
+
+  openBoxs.forEach(function(openBox){
+    return openBox.parentElement.nextElementSibling.style.display = "block",
+    openBox.classList.add('active');
+  });
+
+  $(".openBox").on("click", function(){
+    var $self = $(this);
+    var clickBoxId = $self.attr('id');
+    var cookieObj = {};
+
+    if ($self.parent("dt").next("dd").is(':hidden')) {
+      cookieObj.name = clickBoxId;
+      cookieObj.value = true;
+      $.cookie(cookieObj.name, cookieObj.value);
+    } else {
+      cookieObj.name = clickBoxId;
+      cookieObj.value = false;
+      $.cookie(cookieObj.name, cookieObj.value);
+    }
+
+    $self.toggleClass('active');
+    $self.parent("dt").next("dd").slideToggle();
+  });
+
+});
+```
   
 # Uncaught TypeError: Failed to execute 'appendChild' on 'Node': parameter 1 is not of type 'Node'.
 追加する要素をノードにしなければ、ならない。なので要素をquerySelectorAllで取得した。
