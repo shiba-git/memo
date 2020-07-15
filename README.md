@@ -293,4 +293,4 @@ $.cookie.jQueryの話。
 https://qiita.com/skwbr/items/b285cc312587c73a4812
   
 # input focus はborderではなくoutline
-https://qiita.com/skwbr/items/b285cc312587c73a4812
+https://developer.mozilla.org/ja/docs/Web/CSS/:focus
