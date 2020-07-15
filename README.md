@@ -291,4 +291,6 @@ $.cookie.jQueryの話。
 
 # input tag 16px以下はズームされる
 https://qiita.com/skwbr/items/b285cc312587c73a4812
-
+  
+# input focus はborderではなくoutline
+https://qiita.com/skwbr/items/b285cc312587c73a4812
